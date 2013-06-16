@@ -1,0 +1,57 @@
+{
+    "name": "nutn2",
+    "settings": {},
+    "xdsVersion": "2.2.2",
+    "xdsBuild": 991,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000503,
+    "framework": "touch22",
+    "topInstanceFileMap": {
+        "6deef53c-2553-4fac-82d9-61b7b54c08a8": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "07c9897f-f0e3-4182-b38b-ef93dde8d9f4": {
+            "paths": [
+                "metadata/view/MyPanel",
+                "app/view/override/MyPanel.js",
+                "app/view/MyPanel.js"
+            ],
+            "className": "MyPanel"
+        },
+        "6ad4e33c-a324-4dbf-9988-337ca688894a": {
+            "paths": [
+                "metadata/view/MyPanel4",
+                "app/view/override/MyPanel4.js",
+                "app/view/MyPanel4.js"
+            ],
+            "className": "MyPanel4"
+        },
+        "e4f6be1b-32a9-4e7a-9cd5-14d800d0dd7f": {
+            "paths": [
+                "metadata/view/MyPanel8",
+                "app/view/override/MyPanel8.js",
+                "app/view/MyPanel8.js"
+            ],
+            "className": "MyPanel8"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "07c9897f-f0e3-4182-b38b-ef93dde8d9f4",
+            "e4f6be1b-32a9-4e7a-9cd5-14d800d0dd7f",
+            "6ad4e33c-a324-4dbf-9988-337ca688894a"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "6deef53c-2553-4fac-82d9-61b7b54c08a8"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

@@ -1,0 +1,176 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "fullscreen": true,
+        "style": "background : white",
+        "designer|userClassName": "MyPanel4",
+        "layout": "vbox",
+        "scrollable": "vertical"
+    },
+    "designerId": "6ad4e33c-a324-4dbf-9988-337ca688894a",
+    "cn": [
+        {
+            "type": "Ext.Toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "title": "常用連結"
+            },
+            "designerId": "be76a8f1-197e-436d-89a5-13c8a859277b"
+        },
+        {
+            "type": "Ext.Toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|pack": "center",
+                "docked": "bottom"
+            },
+            "designerId": "0eba88ce-48e2-4548-9859-776c25a16ecf",
+            "cn": [
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "width": "40%",
+                        "text": "上一頁"
+                    },
+                    "designerId": "75c2f767-dcb3-431a-b788-639fe1122568"
+                },
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "ui": "",
+                        "width": "40%",
+                        "text": "首頁"
+                    },
+                    "designerId": "9de476ce-600e-4f11-b1bc-0acb6682ed42"
+                }
+            ]
+        },
+        {
+            "type": "Ext.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 50,
+                "html": "\"Facebook\""
+            },
+            "designerId": "5b6660c5-79e0-4f7e-90b9-ce4c78845bf1"
+        },
+        {
+            "type": "Ext.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|pack": "center",
+                "height": 150,
+                "id": "b2",
+                "width": "100%",
+                "layout": "hbox"
+            },
+            "designerId": "e030b232-f385-4e78-a0c5-68398b22e8f5",
+            "cn": [
+                {
+                    "type": "Ext.Img",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "width": "50%",
+                        "src": "b5.png"
+                    },
+                    "designerId": "180df9a3-a432-4843-b542-a75c1ff12e05"
+                },
+                {
+                    "type": "Ext.Img",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "width": "50%",
+                        "src": "b6.png"
+                    },
+                    "designerId": "3f35c165-d586-4e07-b05b-7916e78de2de"
+                }
+            ]
+        },
+        {
+            "type": "Ext.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|pack": "center",
+                "height": 150,
+                "margin": "",
+                "width": "100%",
+                "layout": "hbox"
+            },
+            "designerId": "991d663d-f71b-49b9-921e-e23f5702adb1",
+            "cn": [
+                {
+                    "type": "Ext.Img",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "width": "50%",
+                        "src": "b7.png"
+                    },
+                    "designerId": "fc77b272-b312-4baa-994f-adfd2d02d5c1"
+                },
+                {
+                    "type": "Ext.Img",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "width": "50%",
+                        "src": "b8.png"
+                    },
+                    "designerId": "ec18f7b8-3854-4b6c-a146-ac2eb2864627"
+                }
+            ]
+        }
+    ]
+}

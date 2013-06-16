@@ -1,0 +1,17 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "views": [
+            "MyPanel",
+            "MyPanel4",
+            "MyPanel8"
+        ],
+        "name": "MyApp"
+    },
+    "designerId": "application"
+}

@@ -1,0 +1,208 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "fullscreen": true,
+        "style": "background : white",
+        "designer|userClassName": "MyPanel",
+        "designer|initialView": true,
+        "layout": "vbox",
+        "scrollable": "vertical"
+    },
+    "designerId": "07c9897f-f0e3-4182-b38b-ef93dde8d9f4",
+    "cn": [
+        {
+            "type": "Ext.Toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "title": "國立臺南大學"
+            },
+            "designerId": "fc92d976-2f5c-4197-ba80-0bddec1bd35b"
+        },
+        {
+            "type": "Ext.Toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|pack": "center",
+                "docked": "bottom"
+            },
+            "designerId": "d034a0a9-4e90-4570-93ac-3d31cb3db7d1",
+            "cn": [
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "width": "40%",
+                        "text": "上一頁"
+                    },
+                    "designerId": "dff5596c-26dd-41fc-99b1-a8c4b69d3d5c"
+                },
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "ui": "",
+                        "width": "40%",
+                        "text": "首頁"
+                    },
+                    "designerId": "605b71b7-0383-4980-b873-3578bb851536"
+                }
+            ]
+        },
+        {
+            "type": "Ext.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "center",
+                "container|pack": "center",
+                "height": 50,
+                "html": "",
+                "layout": "hbox"
+            },
+            "designerId": "13419383-6727-4052-85ad-bb4ad5fd6dae",
+            "cn": [
+                {
+                    "type": "Ext.Component",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "html": "電機四 S09882099 王大明",
+                        "margin": "20px"
+                    },
+                    "designerId": "7bedb5d7-2d56-4c39-86d1-aea6fcf008df"
+                },
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "width": "",
+                        "text": "登出"
+                    },
+                    "designerId": "bfc13ef7-52e0-4a35-9d1b-9b08cab6df7a"
+                }
+            ]
+        },
+        {
+            "type": "Ext.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|pack": "center",
+                "height": 150,
+                "id": "b1",
+                "width": "100%",
+                "layout": "hbox"
+            },
+            "designerId": "93bb0b58-d01c-4f39-99cc-03c788f10ee2",
+            "cn": [
+                {
+                    "type": "Ext.Img",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "width": "50%",
+                        "src": "b1.png"
+                    },
+                    "designerId": "2e238948-1c00-4a5a-8ffb-ebb0822c766e"
+                },
+                {
+                    "type": "Ext.Img",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "width": "50%",
+                        "src": "b2.png"
+                    },
+                    "designerId": "765619f9-800c-4161-ad40-498583f4155a"
+                }
+            ]
+        },
+        {
+            "type": "Ext.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|pack": "center",
+                "height": 150,
+                "margin": "",
+                "width": "100%",
+                "layout": "hbox"
+            },
+            "designerId": "1618e3f0-591d-48b4-b3f0-02ed59885c74",
+            "cn": [
+                {
+                    "type": "Ext.Img",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "width": "50%",
+                        "src": "b3.png"
+                    },
+                    "designerId": "2e1ca05b-ec4b-4db6-bd08-a329e1da668b"
+                },
+                {
+                    "type": "Ext.Img",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "width": "50%",
+                        "src": "b4.png"
+                    },
+                    "designerId": "bbf589d1-8a54-4291-919a-1bf61d48ff0c"
+                }
+            ]
+        }
+    ]
+}
